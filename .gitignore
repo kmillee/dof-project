@@ -1,41 +1,95 @@
-# Prerequisites
-*.d
+# -------------------------
+# Build artifacts
+# -------------------------
+/build/
+/out/
+/bin/
+/lib/
+/obj/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+/Makefile
+/cmake_install.cmake
 
-# Compiled Object files
-*.slo
-*.lo
+# Ninja
+/.ninja*
+/build.ninja
+
+# -------------------------
+# External dependencies
+# -------------------------
+/External/*
+!/External/*.txt
+!/External/*.md
+
+# -------------------------
+# Editor / IDE files
+# -------------------------
+
+# VSCode
+.vs/
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.ipch
+*.cache
+*.user
+*.opendb
+*.VC.db
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# -------------------------
+# Compiled objects + libs
+# -------------------------
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
 *.a
 *.lib
-
-# Executables
+*.dll
+*.so
+*.dylib
 *.exe
-*.out
-*.app
 
-# debug information files
-*.dwo
+# -------------------------
+# Generated shader binaries
+# -------------------------
+*.spv
+
+# -------------------------
+# Logs / temporary / misc
+# -------------------------
+*.log
+*.tmp
+*.temp
+*.DS_Store
+Thumbs.db
+
+# -------------------------
+# Runtime outputs
+# -------------------------
+*.png
+*.jpg
+*.jpeg
+*.ppm
+
+# -------------------------
+# Cache from shader compilers / tools
+# -------------------------
+.cache/
+.cache/*
