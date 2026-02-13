@@ -66,6 +66,9 @@ If missing, re-add them before configuring CMake.
 
 # **Build Project**
 
+If available, you can build and execute this project on Visual Studio.
+
+Otherwise, using line command:
 ```bash
 cmake -B build
 cmake --build build --config Release
