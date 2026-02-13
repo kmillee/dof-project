@@ -3,7 +3,7 @@
 This project implements a **depth-of-field (DoF) renderer** using a thin lens camera model and ray tracing.
 It simulates lens blur by sampling rays across an aperture and computing their contributions using a CPU-based rendering pipeline. This projet is based on "Real-Time Lens Blur Effects and Focus Control" by Lee et al.
 
-It was submitted as the final project of the Advanced Computer Graphics class.
+It was submitted as the final project of an Advanced Computer Graphics class.
 
 ---
 
