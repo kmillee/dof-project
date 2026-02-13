@@ -50,7 +50,7 @@ cd LensSim
 
 ## 2. Make sure External dependencies exist
 
-Ensure the following folders exist (should already be here):
+Ensure the following folders exist (stb_image and imgui should already be here):
 
 ```
 External/glad
