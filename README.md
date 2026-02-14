@@ -3,7 +3,7 @@
 This project implements a **depth-of-field (DoF) renderer** using a thin lens camera model and ray tracing.
 It simulates lens blur by sampling rays across an aperture and computing their contributions using a CPU-based rendering pipeline. This projet is based on "Real-Time Lens Blur Effects and Focus Control" by Lee et al.
 
-It was submitted as the final project of the Advanced Computer Graphics class.
+It was submitted as the final project of an Advanced Computer Graphics class.
 
 ---
 
@@ -50,7 +50,7 @@ cd LensSim
 
 ## 2. Make sure External dependencies exist
 
-Ensure the following folders exist (should already be here):
+Ensure the following folders exist (stb_image and imgui should already be here):
 
 ```
 External/glad
@@ -66,6 +66,9 @@ If missing, re-add them before configuring CMake.
 
 # **Build Project**
 
+If available, you can build and execute this project on Visual Studio.
+
+Otherwise, using line command:
 ```bash
 cmake -B build
 cmake --build build --config Release
